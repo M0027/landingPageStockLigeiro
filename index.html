@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StockLigeiro - Sistema de Gestão de Stock</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>Controle o stock da sua loja com facilidade</h1>
+    <p>Evite perdas, saiba o que vende mais e aumente seus lucros com um sistema simples, acessível e profissional.</p>
+    <a href="#demo-form" class="cta-button">Pedir Demonstração</a>
+  </header>
+
+  <section class="benefits">
+    <h2>Por que usar o StockLigeiro?</h2>
+    <ul>
+      <li>✅ Cadastro rápido de produtos e categorias</li>
+      <li>✅ Controle de stock em tempo real</li>
+      <li>✅ Relatórios de vendas, lucros e produtos mais vendidos</li>
+      <li>✅ Alertas de stock baixo</li>
+      <li>✅ Dashboard com métricas claras</li>
+      <li>✅ Pode ser usado por mais de um vendedor</li>
+    </ul>
+  </section>
+
+  <section class="testimonial">
+    <h2>O que dizem os nossos clientes</h2>
+    <blockquote>
+      “Desde que comecei a usar o StockLigeiro, nunca mais perdi produtos por falta de controle. Agora sei exatamente o que vende mais na minha loja.”
+      <footer>— Fátima M., Loja Boutique MozStyle</footer>
+    </blockquote>
+
+    <a class="precos" href="/plano.html">Ver Precos</a>
+  </section>
+
+  <section class="contact" id="demo-form">
+    <h2>Peça uma Demonstração</h2>
+    <p>Preencha o formulário abaixo e entraremos em contacto via WhatsApp.</p>
+    <form onsubmit="return enviarFormulario(event)">
+      <input type="text" id="nome" placeholder="Seu nome" required />
+      <input type="text" id="loja" placeholder="Nome da loja" required />
+      <input type="tel" id="telefone" placeholder="WhatsApp (+258...)" required />
+      <textarea id="mensagem" placeholder="Fale brevemente sobre sua necessidade..." required></textarea>
+      <button type="submit" class="cta-button">Enviar Pedido</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 StockLigeiro. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

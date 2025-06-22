@@ -1,0 +1,73 @@
+
+.plans {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.teste{
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+}
+
+.plan-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 10px #ccc;
+}
+.plan-card h2 {
+  color: #0077aa;
+  margin-bottom: 1rem;
+}
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #00c853;
+  margin-bottom: 1rem;
+}
+.payment-info {
+  background-color: #fff;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+
+  li{
+    color: green;
+    font-size: larger;
+  }
+}
+
+.links{
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    transition: ease-in-out .3s;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+     
+}
+
+footer{
+    background-color: #333;
+    padding: 10px 0;
+    p{
+        text-align: center;
+        color: #ccc;
+    }
+}
